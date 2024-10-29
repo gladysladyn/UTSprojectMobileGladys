@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="30dp"
+    tools:context=".ConfirmationActivity">
+
+    <!-- Judul Halaman -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_order_food"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Confirmation Nama Makanan -->
+    <TextView
+        android:id="@+id/etFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_food_name"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Confirmation Jumlah Porsi -->
+    <TextView
+        android:id="@+id/etServings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_servings"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Confirmation Nama pengorder -->
+    <TextView
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_ordering_name"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Input Catatan Tambahan -->
+    <TextView
+        android:id="@+id/etNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_add_notes"
+        android:textSize="18sp"
+        android:layout_marginBottom="70dp"/>
+
+    <!-- Input Catatan Tambahan -->
+    <TextView
+        android:id="@+id/confirm_thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_thanks_text"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/backtoMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_back_to_menu"
+        android:backgroundTint="@color/orange"/>
+
+</LinearLayout>
